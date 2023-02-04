@@ -34,3 +34,22 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.info1{
+    position: absolute;
+    width: 120px;
+
+    top: 30%;
+    left: 5%;
+}
+
+.info2{
+    position: absolute;
+    width: 120px;
+
+    top: 30%;
+    left: 55%;
+}
+
+.info3{
+    
+}
