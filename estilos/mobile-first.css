@@ -51,5 +51,33 @@ body{
 }
 
 .info3{
-    
+    position: absolute;
+    background-color: rgb(56, 56, 214);
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+
+    top: 60%;
+    left: 30%
+}
+
+.info4{
+    position: absolute;
+
+    top: 63.4%;
+    left: 58%;
+}
+
+.def1{
+    position: absolute;
+
+    top: 23.5%;
+    left: 7%;
+}
+
+.def2{
+    position: absolute;
+
+    top: 23.5%;
+    left: 58%;
 }
