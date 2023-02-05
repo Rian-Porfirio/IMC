@@ -14,12 +14,12 @@
             <form action="cadastro.php">
                 <p>
                     <label class="def1" for="ipeso"> Seu peso (Kg)</label>
-                    <input class="info1" type="text" name="peso" id="ipeso" min="0" maxlength="3" oninput="icalculo.innerHTML = Number(ipeso.value) / Number(ialtura.value) * Number(ialtura.value)" value="0">
+                    <input class="info1" type="text" name="peso" id="ipeso" min="0" maxlength="3" oninput="icalculo.innerHTML = Number(ipeso.value) / Number(ialtura.value) * Number(ialtura.value)" placeholder="0">
                 </p>
 
                 <p>
                     <label class="def2" for="ialtura"> Sua altura (m)</label>
-                    <input class="info2" type="text" name="altura" id="ialtura" min="0" maxlength="4" oninput="icalculo.innerHTML = Number(ipeso.value) / (Number(ialtura.value) * Number(ialtura.value))" value="0">
+                    <input class="info2" type="text" name="altura" id="ialtura" min="0" maxlength="4" oninput="icalculo.innerHTML = Number(ipeso.value) / (Number(ialtura.value) * Number(ialtura.value))" placeholder="0">
                 </p>
 
                 <p> 
@@ -29,6 +29,6 @@
             </form>
         </div>
     </main>
-    
+
 </body>
 </html>

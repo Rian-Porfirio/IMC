@@ -17,7 +17,7 @@ html{
 /* inicio */
 
 body{
-    background-color: rgb(14, 85, 137);
+    background-color: rgb(31, 117, 180);
 }
 
 #container{
@@ -37,6 +37,7 @@ body{
 .info1{
     position: absolute;
     width: 120px;
+    border-radius: 5px;
 
     top: 30%;
     left: 5%;
@@ -45,6 +46,7 @@ body{
 .info2{
     position: absolute;
     width: 120px;
+    border-radius: 5px;
 
     top: 30%;
     left: 55%;
@@ -52,7 +54,7 @@ body{
 
 .info3{
     position: absolute;
-    background-color: rgb(56, 56, 214);
+    background-color: rgb(54, 255, 84);
     padding: 10px;
     border-radius: 10px;
     width: 120px;
